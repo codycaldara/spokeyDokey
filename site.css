@@ -1,0 +1,11 @@
+.redback{
+    background-color: red;
+}
+.greyback{
+    background-color: lightgray;
+
+}
+.divPad{
+    padding-left: 6em;
+    padding-right: 6em;
+}
