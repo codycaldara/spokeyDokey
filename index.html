@@ -3,66 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Spoke Calculator</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-            crossorigin="anonymous">
-
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-                crossorigin="anonymous"></script>
-
-                <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron redback">
-            <div class="row text-center">
-                <div class="col-md-2">
-                    <img src="http://scontent.cdninstagram.com/t51.2885-19/s150x150/14359935_267157990350787_3725553957964087296_a.jpg" alt="Bauerhaus Logo">
-                </div>
-                <div class="col-md-8">
-                    <h1>Spoke Calculator</h1>
-                </div>
-                <div class="col-md-2">
-                    <img src="http://scontent.cdninstagram.com/t51.2885-19/s150x150/14359935_267157990350787_3725553957964087296_a.jpg" alt="Bauerhaus Logo">
-                </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbarBrand">BauerHaus | Spokey</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search">
+                </form>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="jumbotron greyback">
-            <div class="row">
-                <div class="col-md-4 divPad">
-                    <h3>Hub Info</h3>
-                    <label for="leftFlange">Left Flange</label>
-                    <input type="text" class="form-control" placeholder="Measured in mm">
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <h3>Rim Info</h3>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <p>Test</p>
-                    </div>
-                </div>
-            </div>
+    </nav>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar" style="background-color: white">
+                <image src="bh-logo.jpg" style="padding-bottom: 20px; padding-left: 10px"></image>
+                <ul class="nav nav-sidebar">
+                    <li><a href="#">Calculator</a></li>
+                    <li><a href="#">Brand</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li><a href="">Stan's No Tubes</a></li>
+                    <li><a href="">Zipp Speed Weaponry</a></li>
+                    <li><a href="">Shimano</a></li>
+                    <li><a href="">Mavic</a></li>
+                    <li><a href="">Forte</a></li>
+                    <li><a href="">Profile Design</a></li>
+                    <li><a href="">Oval Concepts</a></li>
+                    <li><a href="">Easton</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <h1 class="page-header">Spoke Calculator</h1>
+            </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    </div>
-    <script>
-        rcjs"
-    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
