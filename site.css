@@ -18,7 +18,7 @@ body {
   position: fixed;
   top: 0px;
   bottom: 0;
-  width: 250px;
+  width: 300px;
   color: black;
 }
 .nav-side-menu .brand {
@@ -90,6 +90,7 @@ body {
   padding-left: 0px;
   border-left: 3px solid lightgray;
   border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 .nav-side-menu li a {
   text-decoration: none;
