@@ -3,66 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Spoke Calculator</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-            crossorigin="anonymous">
-
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-                crossorigin="anonymous"></script>
-
-                <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron redback">
-            <div class="row text-center">
-                <div class="col-md-2">
-                    <img src="http://scontent.cdninstagram.com/t51.2885-19/s150x150/14359935_267157990350787_3725553957964087296_a.jpg" alt="Bauerhaus Logo">
-                </div>
-                <div class="col-md-8">
-                    <h1>Spoke Calculator</h1>
-                </div>
-                <div class="col-md-2">
-                    <img src="http://scontent.cdninstagram.com/t51.2885-19/s150x150/14359935_267157990350787_3725553957964087296_a.jpg" alt="Bauerhaus Logo">
-                </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: black">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbarBrand">
+                    <image src="bh-logo.jpg" style="width: 7%"></image>auerHaus | Spokey</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="jumbotron greyback">
-            <div class="row">
-                <div class="col-md-4 divPad">
-                    <h3>Hub Info</h3>
-                    <label for="leftFlange">Left Flange</label>
-                    <input type="text" class="form-control" placeholder="Measured in mm">
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <h3>Rim Info</h3>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <p>Test</p>
-                    </div>
-                </div>
-            </div>
+    </nav>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="nav-side-menu">
+                <div class="brand">
+                    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                </div>
+                <div class="menu-list" style="padding-top: 55px">
+                    <ul id="menu-content" class="menu-content collapse out">
+                        <li>
+                            <a href="#"><i class="fa fa-calculator fa-lg"></i> Calculator</a>
+                        </li>
+                        <li data-toggle="collapse" data-target="#service" class="collapsed">
+                            <a href="#"><i class="fa fa-ellipsis-v fa-lg"></i> Brands <span class="arrow"></span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="service">
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                            <li>Rim Brand</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" id="main">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-header">Spoke Calculator</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    </div>
-    <script>
-        rcjs"
-    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
